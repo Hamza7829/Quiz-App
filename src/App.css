@@ -1,0 +1,74 @@
+.container{
+  background-color: #f0f0f0; 
+  padding: 20px; 
+  border-radius: 10px; 
+}
+h2 {
+  font-size: 2em;
+  margin-top: 10px;
+  color: #448c51; 
+}
+button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: orangered; 
+  color: #ffffff; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: black; 
+}
+.card {
+  width: 1040px; /* Set a specific width for the card */
+  margin: 20px; /* Add some margin for spacing */
+  border: 2px solid #007bff; /* Add a border with a primary color */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+.card-header {
+  text-align: center; /* Center the content inside the card */
+  color: #111010; /* Set link color to match the card header text color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Reset font weight for links */
+  transition: color 0.3s;
+}
+ul {
+  list-style-type: none; /* Remove default list-style */
+  padding: 0; /* Remove default padding */
+}
+
+/* Optional: Style for list items within the <ul> */
+ul li {
+  margin-bottom: 8px; /* Add some bottom margin between list items */
+}
+ul li:hover {
+  color: #0056b3; /* Darker color on hover */
+}
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;;
+  vertical-align: middle;
+  background-color:black;
+  color: #e0d6d6;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  margin-left: 25px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+
+.btn:hover {
+  color: #e0d6d6;
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
